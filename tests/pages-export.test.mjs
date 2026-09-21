@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { access, readFile } from "node:fs/promises";
 import test from "node:test";
 
-const base = "/noise-client-reporting-template/";
+const base = "/indian-motorcycle-reporting/";
 const output = new URL("../pages-dist/", import.meta.url);
 
 test("GitHub Pages can load the script that attaches the report's click handlers", async () => {
