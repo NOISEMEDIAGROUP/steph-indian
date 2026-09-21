@@ -56,5 +56,5 @@ test("keeps public image paths compatible with the GitHub Pages subdirectory", a
   assert.match(pageSource, /reportAsset\("noise-logo-black\.png"\)/);
   assert.match(pageSource, /reportAsset\("indian-creative-triptych\.png"\)/);
   assert.doesNotMatch(pageSource, /src="\/(?:noise-logo-black|indian-creative-triptych)\.png"/);
-  assert.match(workflow, /NEXT_PUBLIC_REPORT_BASE_PATH: \/indian-motorcycle-reporting/);
+  assert.match(workflow, /NEXT_PUBLIC_REPORT_BASE_PATH: \/steph-indian/);
 });
