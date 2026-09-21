@@ -21,7 +21,7 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://noisemediagroup.github.io/noise-client-reporting-template/"),
+  metadataBase: new URL("https://noisemediagroup.github.io/indian-motorcycle-reporting/"),
   title: "Results, then commentary. | Noise Client Reporting",
   description:
     "A client performance report that walks overall results, each channel, each campaign, winning creatives and next steps — in that order.",
